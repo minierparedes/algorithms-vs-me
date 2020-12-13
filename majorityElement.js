@@ -18,16 +18,12 @@ Output: 2
 
 function majorityElement(arr) {
     const frequencyCounter = {};
-
     for (let i = 0; i < arr.length; i++) {
         frequencyCounter[arr[i]] ? frequencyCounter[arr[i]]++ : frequencyCounter[arr[i]] = 1;
+        console.log(`obj key value: ${frequencyCounter[arr[i]]} && arr.lngth: ${(arr.length / 2)}`);
+        if (frequencyCounter[arr[i]] > arr.length / 2) return arr[i];
     }
-
-    for (let key in frequencyCounter) {
-        console.log(frequencyCounter[key]);
-    }
-
-    return frequencyCounter;
+    return -1;
 }
 
-console.log(majorityElement([3,2,3]));
+console.log(majorityElement([2,2,1,1,1,2,2]));
