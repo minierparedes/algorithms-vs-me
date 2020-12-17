@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: "Anonymous Pro", "cyrillic", "greek", "latin", "latin-ext";
+  font-family: "IBM Plex Sans", "cyrillic", "greek", "latin", "latin-ext";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,8 +65,8 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background-color: #ff0;
-  color: #000;
+  background-color: #b1bfd8;
+background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
 }
 small {
   font-size: 80%;
