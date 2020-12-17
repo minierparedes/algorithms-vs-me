@@ -19,6 +19,9 @@ const ArticleDate = styled.h5`
 
 const MarkerHeader = styled.h3`
   display: inline;
+  &:hover {
+    color: grey
+  }
 `
 
 const ReadingTime = styled.h5`

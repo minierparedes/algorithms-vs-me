@@ -23,17 +23,18 @@ const HeaderDate = styled.h3`
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
   a {
+    color: cornflowerBlue;
+    font-size: 1em;
     text-decoration: none;
     position: relative;
-
-    background-color: #b1bfd8;
-    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%); 
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
+    background-size: 0em 100%;
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
     &:hover {
-      background-size: 100% 88%;
+    color: black;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%); 
+    background-repeat: no-repeat;
+    background-size: 88% 100%;
     }
   }
 
