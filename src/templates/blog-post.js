@@ -27,14 +27,16 @@ const MarkdownContent = styled.div`
     font-size: 1em;
     text-decoration: none;
     position: relative;
-    background-size: 0em 100%;
+    background-size: 0em 10%;
     background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
+    
+    transition: color 0.15s ease-in;
     &:hover {
-    color: black;
+    color: blue;
+    transition: background-size 0.25s ease-in;
     background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%); 
     background-repeat: no-repeat;
-    background-size: 88% 100%;
+    background-size: 88% 10%;
     }
   }
 
@@ -59,7 +61,7 @@ export default ({ data }) => {
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
       <Link to={"/blog"}>
-      back
+        back
       </Link>
     </Layout>
   )
