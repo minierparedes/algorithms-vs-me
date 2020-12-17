@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "../templates/prism-base16-ateliersulphurpool.light.css"
 
 const Content = styled.div`
   margin: 0 auto;

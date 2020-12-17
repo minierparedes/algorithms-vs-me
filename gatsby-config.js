@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/algorithms-vs-me",
   siteMetadata: {
-    title: `Julia Doe`,
+    title: `Algorithms VS me`,
     subtitle: `software developer`,
-    description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
-    author: `@niklasmtj`,
+    description: `Simple blog about my software engineering path and things I'm working on.`,
+    author: `Minierparedes`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
