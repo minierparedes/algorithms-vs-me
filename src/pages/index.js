@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 import LandingBio from "../components/landing-bio"
 import Layout from "../components/layout"

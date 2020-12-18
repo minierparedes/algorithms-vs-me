@@ -1,31 +1,34 @@
-import React from 'react'
-import styles from './Footer.css'
+import React from 'react';
+import styles from './Footer.css';
+import { FaGithub, FaTwitter, FaLinkedinIn} from "react-icons/fa";
+
 
 const Footer = () => (
-  <footer>
-    <div className={styles.container}>
-      <div>
-        <a
-          href={"https://twitter.com/minierparedes"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Twitter
-        </a>
-        <a
-          href={"https://github.com/minierparedes"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </div>
-      <div className={styles.copyright}><p>
-Minierparedes
+    <footer>
+        <div className={styles.container}>
+            <div>
+                <a className="twitter"
+                    href={"https://twitter.com/minierparedes"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                ><FaTwitter /></a>
+                <a className="github"
+                    href={"https://github.com/minierparedes"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                ><FaGithub /></a>
+                <a className="linkedin"
+                    href={"https://www.linkedin.com/in/minierparedes/"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                ><FaLinkedinIn /></a>
+            </div>
+            <div className={styles.copyright}><p>
+                Minierparedes
 © {new Date().getFullYear()}
-</p></div>
-    </div>
-  </footer>
+            </p></div>
+        </div>
+    </footer>
 )
 
 export default Footer

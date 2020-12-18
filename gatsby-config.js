@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/algorithms-vs-me",
   siteMetadata: {
     title: `Algorithms VS me`,
-    subtitle: `software developer`,
+    subtitle: `software engineer`,
     description: `Simple blog about my software engineering path and things I'm working on.`,
     author: `Minierparedes`,
   },

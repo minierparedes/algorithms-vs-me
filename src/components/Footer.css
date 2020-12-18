@@ -12,12 +12,20 @@ footer {
 }
 
 a {
+    font-size: 20px !important;
     color: #ddd;
     margin: 10px;
 }
-a:hover {
-    color: #fff;
 
+
+.twitter:hover {
+    color: rgb(63, 100, 221);
+}
+.github:hover {
+    color: rgb(83, 6, 107);
+}
+.linkedin:hover {
+    color: rgb(74, 36, 247);
 }
 
 .copyright {
