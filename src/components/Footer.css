@@ -1,0 +1,23 @@
+footer {
+    padding: 20px 0 40px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+.container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: auto;
+        padding: 20px;
+}
+
+a {
+    color: #ddd;
+    margin: 10px;
+}
+a:hover {
+    color: #fff;
+
+}
+
+.copyright {
+    text-align: right;
+}

@@ -7,6 +7,7 @@ body {
   font-family: "IBM Plex Sans", "cyrillic", "greek", "latin", "latin-ext";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 article,
 aside,
@@ -185,6 +186,7 @@ textarea {
   font: inherit;
 }
 html {
+  height: 100%;
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
@@ -612,6 +614,9 @@ a::selection {
   background: #fffa96cc;
 }
 
+main {
+  
+}
 
 @media only screen and (max-width: 480px) {
   html {
