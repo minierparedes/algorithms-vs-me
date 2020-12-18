@@ -23,7 +23,6 @@ const Footer = () => (
       <div className={styles.copyright}><p>
 Minierparedes
 © {new Date().getFullYear()}
-{` `}
 </p></div>
     </div>
   </footer>

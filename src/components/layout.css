@@ -7,7 +7,11 @@ body {
   font-family: "IBM Plex Sans", "cyrillic", "greek", "latin", "latin-ext";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  position: relative;
 }
 article,
 aside,
@@ -614,9 +618,6 @@ a::selection {
   background: #fffa96cc;
 }
 
-main {
-  
-}
 
 @media only screen and (max-width: 480px) {
   html {
