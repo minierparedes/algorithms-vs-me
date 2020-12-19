@@ -493,7 +493,9 @@ b {
   font-weight: bold;
 }
 strong {
+  font-size: 17px;
   font-weight: bold;
+  color: rgb(73, 70, 70);
 }
 dt {
   font-weight: bold;

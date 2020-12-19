@@ -45,7 +45,7 @@ pattern, you'll be able to solve dozens of problems with it.
 
 A Udemy course by Colt Steele on teaching you how to analyze your code’s time and space complexity 
 using **Big O** notation.  We cover the ins and outs of **Recursion**.  We learn a 5-step approach to 
-solving any difficult coding problem. We cover common programming patterns. We implement popular 
+solving any difficult coding problem. We cover common programming patterns. We implement populars 
 **searching algorithms**.
 
 
