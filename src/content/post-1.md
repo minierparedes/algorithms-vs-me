@@ -49,9 +49,9 @@ solving any difficult coding problem. We cover common programming patterns. We i
 **searching algorithms**.
 
 
-## Master Algorithms and Data Structure through delibarate practice
+## Master Algorithms and Data Structure through deliberate practice
 
-Delibarate practice is: 
+deliberate practice is: 
 > Special type of practice that is purposeful and systematic. 
 
 
@@ -59,5 +59,38 @@ deliberate practice, is the opposite of some regular practice, that is just mind
 same repetitions, it's being conscience about your practice and concentration on the task at hand. 
 Focusing on practice that becomes much more difficult and extends your abilities.
 
-Delibarate practice was researched by Psychologist [K. Anders Ericsson](https://en.wikipedia.org/wiki/K._Anders_Ericsson), a professor of Psychology 
-at Florida State University
+deliberate practice was researched by Psychologist [K. Anders Ericsson](https://en.wikipedia.org/wiki/K._Anders_Ericsson), 
+a professor of Psychology,  how expert one becomes at a skill has more to do with how one practises than with merely 
+performing a skill a large number of times. An expert breaks down the skills that are required to be expert and focuses on 
+improving those skill chunks during practice or day-to-day activities, often paired with immediate coaching feedback.
+
+The second important point of deliberate practice is continually practising a skill at more challenging levels with the 
+intention of mastering it.
+
+#### How to apply deliberate practice with coding
+
+**First** we need to have a clear outline of what needs to be practiced and how one needs to practice. I will
+be following the aforementioned resources.
+**2nd** Deliberate practice requires that we challenge of ourselve and always be doing +1 from our normal level.
+**3rd** Extreme focus and follow a well layout plan. **4th** Feedback is a required component that can be obtain 
+through the means of the challenge's solutions, videos: YouTube, Udemy. and immediate feedback can be recieved.
+Other services Reddit, Discord can also be of help for immediate feedback. **5th** And lastly, deliberate practice
+requires a precise mental model, a mental representation of the skill that needs to be performed. Having an accurate
+mental model of the algorithms and their correct syntax is vital.
+
+
+## GRIT
+
+To persevere and succeed in the face of adversity. Continue focusing on the material with which one struggles.
+If one applies grit on their work, one's effort will increase and improve. 
+
+As [Angela Duckworth](https://en.wikipedia.org/wiki/Angela_Duckworth) states:
+> as much as talent counts, effort counts twice!
+
+> ...there are no shortcuts to excellence. Developing real expertise, figuring out really hard problems, it all takes time―longer than most people imagine....you've got to apply those skills and produce goods or services that are valuable to people....Grit is about working on something you care about so much that you're willing to stay loyal to it...it's doing what you love, but not just falling in love―staying in love!
+
+##
+
+##### sources
+
+###### -delibarate practice [wikipedia](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice)
