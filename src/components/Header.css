@@ -91,7 +91,7 @@ header {
   @media (max-width: 1000px) {
     header {
       display: block;
-      height: 120px;
+      height: 97px;
     }
   
     nav {
@@ -104,8 +104,7 @@ header {
   }
   
   @media (max-width: 768px) {
-    header {
-    }
+  
     strong {
       display: none;
     }
@@ -122,5 +121,6 @@ header {
       border: 1px solid #eee;
       padding: 2px;
       border-radius: 5px;
+      height: 120px;
     }
   }
