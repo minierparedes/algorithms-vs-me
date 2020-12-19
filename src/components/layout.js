@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={"Minierparedes"} />
         <Content>
           <main>{children}</main>
         </Content>
