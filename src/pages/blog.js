@@ -69,7 +69,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query {
-  allMarkdownRemark {
+  allMarkdownRemark( sort: { fields: [frontmatter___date], order: DESC }) {
     nodes {
       fields {
         slug
