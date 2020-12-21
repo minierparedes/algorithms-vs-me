@@ -1,6 +1,6 @@
 ---
-title: "Third Post"
-date: "2020-12-18"
+title: Hero's Journey
+date: 2020-12-18
 ---
 
 
