@@ -1,10 +1,9 @@
 ---
-title: "First step in mastering data structure and algorithms"
+title: "Third Post"
 date: "2020-12-18"
-draft: false
-path: "/blog/example-title"
-
 ---
+
+
 ## A hero's Journey
 
 This is my journey to mastering data structures and algorithms, both for myself,
@@ -89,8 +88,12 @@ As [Angela Duckworth](https://en.wikipedia.org/wiki/Angela_Duckworth) states:
 
 > ...there are no shortcuts to excellence. Developing real expertise, figuring out really hard problems, it all takes time―longer than most people imagine....you've got to apply those skills and produce goods or services that are valuable to people....Grit is about working on something you care about so much that you're willing to stay loyal to it...it's doing what you love, but not just falling in love―staying in love!
 
-##
+## The 40% Rule
+
+When your mind tells you it’s quitting time, you are actually only 40% spent. 
+[David Goggins](https://davidgoggins.com)
 
 ##### sources
 
 ###### -delibarate practice [wikipedia](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice)
+###### -Become a Great Programmer Through Deliberate Practice [The learning programmer](https://thelearningprogrammer.com/become-a-great-programmer-through-deliberate-practice_/)

@@ -47,6 +47,7 @@ const MarkdownContent = styled.div`
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  console.log(post);
   return (
     <Layout>
       <SEO
@@ -67,15 +68,14 @@ export default ({ data }) => {
   )
 }
 
-export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+export const query = graphql`
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       excerpt(pruneLength: 160)
+      html
       frontmatter {
-        date(formatString: "DD MMMM, YYYY")
-        path
         title
+        date(formatString: "DD MMMM, YYYY")
       }
       fields {
         readingTime {
