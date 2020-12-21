@@ -11,16 +11,19 @@ const Footer = () => (
                     href={"https://twitter.com/minierparedes"}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="twitter link"
                 ><FaTwitter /></a>
                 <a className="github"
                     href={"https://github.com/minierparedes"}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="github link"
                 ><FaGithub /></a>
                 <a className="linkedin"
                     href={"https://www.linkedin.com/in/minierparedes/"}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="linkedin link"
                 ><FaLinkedinIn /></a>
             </div>
             <div className={styles.copyright}><p>
