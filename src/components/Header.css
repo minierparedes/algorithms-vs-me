@@ -118,9 +118,7 @@ header {
   
   @media (max-width: 520px) {
     header nav a {
-      font-size: 0.7rem;
-      border: 1px solid #eee;
+      font-size: 1rem;
       padding: 2px;
-      border-radius: 5px;
     }
   }
