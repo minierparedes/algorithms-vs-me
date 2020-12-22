@@ -52,16 +52,6 @@
   Link: </algorithms-vs-me/component---src-templates-blog-post-js-af98e364c3321dfc7841.js>; rel=preload; as=script
   Link: </algorithms-vs-me/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </algorithms-vs-me/page-data/blog/deficient-code-knowledge/page-data.json>; rel=preload; as=fetch; crossorigin
-/algorithms-vs-me/blog/heros-journey/deficient-code-knowledge/
-  Link: </algorithms-vs-me/webpack-runtime-5e0bdb60bb1fb288ce74.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/app-82e68bc1f3cb0248e2fc.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/1bfc9850-a36eb4827c09b7ebb20e.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/commons-2d40aea069d20fa77e84.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/component---src-templates-blog-post-js-af98e364c3321dfc7841.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </algorithms-vs-me/page-data/blog/heros-journey/deficient-code-knowledge/page-data.json>; rel=preload; as=fetch; crossorigin
 /algorithms-vs-me/404/
   Link: </algorithms-vs-me/webpack-runtime-5e0bdb60bb1fb288ce74.js>; rel=preload; as=script
   Link: </algorithms-vs-me/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
