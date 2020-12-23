@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "fontsource-ibm-plex-sans";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -16,7 +15,8 @@ const MarkedHeader = styled.h1`
 `
 
 const HeaderDate = styled.h3`
-  margin-top: 10px;
+  margin-top: 5px;
+  font-size: 20px;
   color: #606060;
 `
 
@@ -33,7 +33,7 @@ const MarkdownContent = styled.div`
     transition: color 0.15s ease-in;
     &:hover {
     color: blue;
-    transition: background-size 0.25s ease-in;
+    transition: background-size 0.20s ease-in;
     background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%); 
     background-repeat: no-repeat;
     background-size: 88% 10%;

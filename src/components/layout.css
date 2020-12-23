@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: "IBM Plex Sans", "cyrillic", "greek", "latin", "latin-ext";
+  font-family: "Lato";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100%;
@@ -619,6 +619,7 @@ p::selection,
 a::selection {
   background: #fffa96cc;
 }
+
 
 
 @media only screen and (max-width: 480px) {

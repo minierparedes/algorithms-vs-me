@@ -6,9 +6,10 @@
 
 // You can delete this file if you're not using it
 
-require("prism-themes/themes/prism-base16-ateliersulphurpool.light.css");
-// require("prismjs/plugins/line-numbers/prism-line-numbers.css");
+require('prism-themes/themes/prism-duotone-light.css');
+
+
 
 exports.onInitialClientRender = () => {
-  require("fontsource-anonymous-pro");
+  require("fontsource-lato");
 };
