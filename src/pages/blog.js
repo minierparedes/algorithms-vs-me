@@ -18,6 +18,7 @@ const ArticleDate = styled.h5`
 `
 
 const MarkerHeader = styled.h3`
+  color: #df8931;
   display: inline;
   &:hover {
     color: grey
@@ -30,7 +31,7 @@ const ReadingTime = styled.h5`
 `
 
 const IndexPage = ({ data }) => {
-  
+
   return (
     <Layout>
       <SEO title="Blog" />
