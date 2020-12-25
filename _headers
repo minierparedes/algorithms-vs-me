@@ -6,7 +6,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
   Strict-Transport-Security: max-age=63072000
-/styles.8bed64a858d036f2ad8a.css
+/styles.c5ff21f044457b6f14b6.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-89fd2ae28bdf06750a71.js
   Cache-Control: public, max-age=31536000, immutable
@@ -42,16 +42,6 @@
   Link: </algorithms-vs-me/component---src-templates-blog-post-js-e1de1cd298582a67cc92.js>; rel=preload; as=script
   Link: </algorithms-vs-me/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </algorithms-vs-me/page-data/blog/heros-journey/page-data.json>; rel=preload; as=fetch; crossorigin
-/algorithms-vs-me/blog/deficient-code-knowledge/
-  Link: </algorithms-vs-me/webpack-runtime-e0f420cef549a06d5088.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/app-a132a07a2189376daba4.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/1bfc9850-a36eb4827c09b7ebb20e.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/commons-45ec7d16806de042a25f.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/component---src-templates-blog-post-js-e1de1cd298582a67cc92.js>; rel=preload; as=script
-  Link: </algorithms-vs-me/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </algorithms-vs-me/page-data/blog/deficient-code-knowledge/page-data.json>; rel=preload; as=fetch; crossorigin
 /algorithms-vs-me/blog/LeetCode/217-contains-duplicate/
   Link: </algorithms-vs-me/webpack-runtime-e0f420cef549a06d5088.js>; rel=preload; as=script
   Link: </algorithms-vs-me/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
@@ -62,6 +52,16 @@
   Link: </algorithms-vs-me/component---src-templates-blog-post-js-e1de1cd298582a67cc92.js>; rel=preload; as=script
   Link: </algorithms-vs-me/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </algorithms-vs-me/page-data/blog/LeetCode/217-contains-duplicate/page-data.json>; rel=preload; as=fetch; crossorigin
+/algorithms-vs-me/blog/deficient-code-knowledge/
+  Link: </algorithms-vs-me/webpack-runtime-e0f420cef549a06d5088.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/app-a132a07a2189376daba4.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/1bfc9850-a36eb4827c09b7ebb20e.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/commons-45ec7d16806de042a25f.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/component---src-templates-blog-post-js-e1de1cd298582a67cc92.js>; rel=preload; as=script
+  Link: </algorithms-vs-me/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </algorithms-vs-me/page-data/blog/deficient-code-knowledge/page-data.json>; rel=preload; as=fetch; crossorigin
 /algorithms-vs-me/404/
   Link: </algorithms-vs-me/webpack-runtime-e0f420cef549a06d5088.js>; rel=preload; as=script
   Link: </algorithms-vs-me/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
