@@ -106,10 +106,6 @@ header {
   
   @media (max-width: 768px) {
   
-    strong {
-      display: none;
-    }
-  
     .main-nav li{
       margin-left: 1rem;
     }
