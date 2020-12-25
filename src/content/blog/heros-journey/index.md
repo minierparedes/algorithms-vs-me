@@ -3,7 +3,7 @@ title: Hero's Journey
 date: 2020-12-18
 ---
 
-
+![hero stepping on to the ring](./attentie-attentie-ig7vN6OkGNE-unsplash.jpg)
 ## A hero's Journey
 
 This is my journey to mastering data structures and algorithms, both for myself,
@@ -13,9 +13,11 @@ LeetCode and its platform of coding challenges.
 
 The materials and resources I will be using are: 
 
--[**SeanPrashad LeetCode patterns**](https://seanprashad.com/leetcode-patterns/)
--[**Grokking the Coding Interview**](https://www.educative.io/courses/grokking-the-coding-interview)
--[**Udemy Mastering DSA**](https://seanprashad.com/leetcode-patterns/)
+[**SeanPrashad LeetCode patterns**](https://seanprashad.com/leetcode-patterns/)
+
+[**Grokking the Coding Interview**](https://www.educative.io/courses/grokking-the-coding-interview)
+
+[**Udemy Mastering DSA**](https://seanprashad.com/leetcode-patterns/)
 
 
 

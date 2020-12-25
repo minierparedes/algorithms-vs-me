@@ -2,6 +2,8 @@
 title: Deficient code knowledge
 date: 2020-12-22
 ---
+
+![not found](./lostNotFound.png)
 ## When you don't know you can't perform
 
 My first time at LeetCode, a platform for anyone to practice programming skills by solving coding questions, I was strucked by how much I did not understand the prompt question itself for their popular "easy" challenge two sum. I was completely lost and overwhelmed. I was very fortunate to come accross a series of articles at [The Learning Programmer](https://thelearningprogrammer.com/author/mmmcmillan1/) that provides a method on how to improve. 

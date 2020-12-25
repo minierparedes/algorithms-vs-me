@@ -25,17 +25,27 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
-    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-reading-time`, {
-          resolve: `gatsby-remark-prismjs`,
-          options: {
-            aliases: { sh: "bash", js: "javascript" },
-            showLineNumbers: false,
-          }
-        }],
+        plugins: [
+          `gatsby-remark-reading-time`,
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 860,
+              linkImagesToOriginal: false
+            }
+
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              aliases: { sh: "bash", js: "javascript" },
+              showLineNumbers: false,
+            }
+          }],
       },
     },
     {

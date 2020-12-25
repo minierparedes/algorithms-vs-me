@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Footer.css';
-import { FaGithub, FaTwitter, FaLinkedinIn} from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 
 const Footer = () => (
-    <footer>
+    <footer className="footer" >
         <div className={styles.container}>
             <div>
                 <a className="twitter"
