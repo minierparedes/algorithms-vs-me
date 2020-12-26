@@ -3,7 +3,7 @@ title: LeetCode 268 Missing Number
 date: 2020-12-24
 ---
 
-<!-- ![leetcode banner: markers on a map](leetcode-banner1.jpg) -->
+![missing number, markers on a map](makers-on-a-map.jpg)
 
 ## Coding challenge
 
