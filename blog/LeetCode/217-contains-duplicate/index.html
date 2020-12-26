@@ -10,13 +10,13 @@
         class="gatsby-resp-image-image"
         alt="leetcode banner: markers on a map"
         title="leetcode banner: markers on a map"
-        src="/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/8d3e2/leetcode-banner1.jpg"
-        srcset="/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/34fa0/leetcode-banner1.jpg 215w,
-/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/40c27/leetcode-banner1.jpg 430w,
-/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/8d3e2/leetcode-banner1.jpg 860w,
-/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/1af2f/leetcode-banner1.jpg 1290w,
-/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/c22f5/leetcode-banner1.jpg 1720w,
-/algorithms-vs-me/static/81073ef72f28f6736d7ef3d51f0a39a3/0f98f/leetcode-banner1.jpg 1920w"
+        src="/static/81073ef72f28f6736d7ef3d51f0a39a3/8d3e2/leetcode-banner1.jpg"
+        srcset="/static/81073ef72f28f6736d7ef3d51f0a39a3/34fa0/leetcode-banner1.jpg 215w,
+/static/81073ef72f28f6736d7ef3d51f0a39a3/40c27/leetcode-banner1.jpg 430w,
+/static/81073ef72f28f6736d7ef3d51f0a39a3/8d3e2/leetcode-banner1.jpg 860w,
+/static/81073ef72f28f6736d7ef3d51f0a39a3/1af2f/leetcode-banner1.jpg 1290w,
+/static/81073ef72f28f6736d7ef3d51f0a39a3/c22f5/leetcode-banner1.jpg 1720w,
+/static/81073ef72f28f6736d7ef3d51f0a39a3/0f98f/leetcode-banner1.jpg 1920w"
         sizes="(max-width: 860px) 100vw, 860px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -39,9 +39,9 @@ Output<span class="token operator">:</span> <span class="token boolean">true</sp
 <p>The challenge is asking for the function to be able to find <strong>ANY</strong> duplicate values. Whenever the input is an array and it requires to <strong>find</strong> matching values my immediate thought to help me find a solution is to use an object. The object can be use to map out all the given inputs from the array to the object and check against the given array's values to see if the values have been assigned already and there is a match.</p>
 <h2>Approach</h2>
 <p>Create an empty object and a for loop. Inside the for loop set an <code class="language-text">if</code>  statement where we ask: is the value in the array inside the object? if so <code class="language-text">return true</code> . Followed by taking each of the values from  the array and mapping them to the object's keys, setting each of the object's values to true. Lastly the function <code class="language-text">return false</code> if no match is found. </p>
-<h3>time complexity</h3>
+<h4>time complexity</h4>
 <p>Mapping out array values to the object will take the same amount of operations as the number of input increases making this <em><strong>O(n)</strong></em>.</p>
-<h3>space complexity</h3>
+<h4>space complexity</h4>
 <p>There is use of only one object <code class="language-text">match</code> to store the key/value pairs from the given array <code class="language-text">nums</code> .<br> Key maps to each array value and each of the key's value is set to true, giving it a space complexity of <em><strong><em>O(n)</em></strong></em>.</p>
 <h2>Code</h2>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">containsDuplicate</span><span class="token punctuation">(</span><span class="token parameter">nums</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
