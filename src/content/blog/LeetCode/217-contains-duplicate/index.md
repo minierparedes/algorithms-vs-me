@@ -3,7 +3,7 @@ title: LeetCode 217 Contains duplicate
 date: 2020-12-23
 ---
 
-![duplicates, copies of p](natalia-y-NScCnMEYHQ0-unsplash.jpg)
+![duplicates copies of p](natalia-y-NScCnMEYHQ0-unsplash.jpg)
 
 ## Coding challenge
 
