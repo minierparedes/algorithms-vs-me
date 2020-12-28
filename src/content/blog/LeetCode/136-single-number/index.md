@@ -17,7 +17,8 @@ Follow up: Could you implement a solution with a linear runtime complexity and w
 `1 <= nums.length <= 3 * 104
  -3 * 104 <= nums[i] <= 3 * 104
  0 <= nums[i] <= n
- Each element in the array appears twice except for one element which appears only once.
+ Each element in the array appears 
+ twice except for one element which appears only once.
 `
 
 #### examples:

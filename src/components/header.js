@@ -13,9 +13,10 @@ const Header = ({ siteTitle }) => (
     <nav>
       <ul className={styles.mainNav}>
         <li>
-          <Link to="/blog">
-            blog
-          </Link>
+          <Link to="/blog">blog</Link>
+        </li>
+        <li>
+          <Link to="/about">about</Link>
         </li>
       </ul>
     </nav>
