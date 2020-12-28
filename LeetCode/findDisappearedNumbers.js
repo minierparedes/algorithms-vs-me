@@ -9,31 +9,26 @@ Input:
 Output:
 [5,6]
 
-create obj to map arr index to obj keys
-create arr to return result of missing nums
-for loop obj making keys from nums arr i initializing to false
-2nd for loop use nums[i] value to get obj key re-assign value to true
-for in loop for obj key if obj value stric equals false push to arr
 
 */
 
 
 function findDisappearedNumbers(nums) {
-    const obj = {};
+    const match = {};
     const result = [];
 
-    for (let i = 0; i < nums.length; i++) {
-        obj[i + 1] = false;
+    for (let i = 1; i < nums.length; i++) {
+        match[i + 1] = false;
     }
     for (let i = 0; i < nums.length; i++) {
-        obj[nums[i]] = true;
+        match[nums[i]] = true;
     }
-    for (const key in obj) {
-        if (obj[key] === false) result.push(key)
+    for (const i in match) {
+        if (match[i] === false) result.push(i)
     }
-
 
     return result;
+
 }
 
 
