@@ -77,6 +77,6 @@ function singleValue(nums) {
 
 ## Road to 170
 
-**LC: 3**
+**LC: 4**
 
-This is the third Leetcode challenge of the 170 challenges from the [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) by Sean Prashad
+This is the fourth Leetcode challenge of the 170 challenges from the [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) by Sean Prashad

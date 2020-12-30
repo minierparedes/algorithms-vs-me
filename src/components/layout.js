@@ -12,7 +12,7 @@ import styled from "@emotion/styled";
 import Footer from "./Footer";
 import Header from "./header";
 import "./layout.css";
-import "../components/css/custom.css";
+
 
 
 const Content = styled.div`
@@ -35,13 +35,11 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div className="site-content">
         <Header siteTitle={"Minierparedes"} />
         <Content>
           <main>{children}</main>
         </Content>
         <Footer />
-        </div>
       </>
     )}
   />

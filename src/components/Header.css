@@ -36,8 +36,8 @@ header {
     ul li{
       list-style-type: none;
       margin: 0;
-  padding: 0;
-  overflow: hidden;
+      padding: 0;
+      overflow: hidden;
     }
     li {
       float: left;
@@ -63,8 +63,8 @@ header {
       }
     
   
-  .activeNav {
-      color: #4f647d;
+  .active-nav {
+      color: #13161a;
       font-weight: 700;
     }
   

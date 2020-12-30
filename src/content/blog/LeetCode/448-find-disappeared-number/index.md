@@ -26,12 +26,16 @@ Output:
 
 ## Breakdown and Discussion of challenge
 
-Given an unsorted array of integer values, we need to **check** all the numbers and see which number is the **missing** from the given range. For challenges that require **finding** something within the array, against some factor, in this case being the array's range of numbers, I like to immediately think of using an object to map the array's values to the object. This method allows for the object to have all the values and then I can check against the array to see what is missing, compare, check for duplicates ect..  
+Given an unsorted array of integer values, we need to **check** all the numbers and see which number is the **missing** from the given range. For challenges that require **finding** something within the array, against some factor, in this case being the array's range of numbers, I like to immediately think of using an object to map the array's values to the object. This method allows for the object to have all the values and then I can check against the array to see what is missing, compare against, check for duplicates ect..  
 
 
 ## Approach
 
-Within the function we create an object `missingNum` and an array `result`. Use a for loop to iterate through the array mapping each array's index to the object keys and setting each key's value to false. Create a second loop to set to true each object key's that is in the object using the array's values. A last for loop is create, this time a for in loop, grabbing each key from the object and using an `if` statement asking: `missingNum[key] === false` take the `result` array and push the `key` with false value to it. Now the function will `return result[0]` the fist element in the array.
+Fitst step is to create an object `match` and an array `result`. The object for us to map our array's index to by means of our first for loop. We need to make sure that for the object's keys we use the loop's `i` variable and `+ 1` to it. Doing so allows the `match` to start at the correct value and end at the correct value. For every key that is set to the array's value, its value is initialized to false. The array `result` will be used to push matching keys to. 
+
+We create a second loop that will set each property using the array's values to `true` if the key has been set from the first loop.
+
+For the last step, a for in loop will iterate through the object using the key to check with an if statement, if there are any key's whos values is equal to `false`. If equal to `false` then push set key to the `result` array. The function `return` `result` array.
 
 #### time complexity
 
@@ -68,6 +72,6 @@ function findDisappearedNumbers(nums) {
 
 ## Road to 170
 
-**LC: 2**
+**LC: 3**
 
-This is the second Leetcode challenge of the 170 challenges from the [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) by Sean Prashad
+This is the Third Leetcode challenge of the 170 challenges from the [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) by Sean Prashad
