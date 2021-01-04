@@ -1,9 +1,9 @@
 ---
-title: LeetCode 70 Climbing Stairs
-date: 2020-12-30
+title: LeetCode 53 Maximum subarray
+date: 2021-01-04
 ---
 
-![endless staircase](fabian-fauth-RiWvn39cZSQ-unsplash.jpg)
+![an array of solar panels](antonio-garcia-ndz_u1_tFZo-unsplash.jpg)
 
 ## Coding challenge
 
