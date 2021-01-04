@@ -33,14 +33,15 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ## Breakdown and Discussion of challenge
 
-Given an unsorted array of integer values, all having a duplicate, we need to **check** all the numbers and see which number is the **single**, **unique**, number that only appears once. Whenever there is a challenge that requires **finding** something within the array, against some factor, in this case getting a single unique number from all the ones with their duplicates, I like to immediately think of using an object to map the array's values to the object. I wanted to try implementing a two pointer approach, but I was not successful in getting the pattern to work with numbers in the middle or near the end of the array, e.g. `[2, 1, 2, 4, 1]`. I believe that given enough time, or help, I will be able to get to the solution. 
-
-Using an object, allowing it to have all the array values as keys and I then check the object to see which of its key values have a higher value than 1, returning that unique key.
+The point of the challenge is to be able find the minimum value within the array in order to buy, followed by being able to find the maximum value within the array after you buy, in order to sell. 
+<br>The function needs to be able to return the maximum profit you can get from any given array input.
 
 
 ## Approach
 
-Create an object `uniq` within the function to map all the array values to a key, setting each value to 1. Use a for loop to iterate through all the array values. In the for loop we use an if statement to ask: if the object `uniq` when called using the array's values `uniq[nums[i]]` as its key property, is available then increment++ its value by one, otherwise set its value to one. A second loop is set, this time a for in loop, to check if object `uniq` has any key property whos value is stricly equals to 1? if so then return the key's value else return -1.
+In a function we need to be able to keep track of both the minimum and the maximum values. Within the function two variables will be declared and initialized, `maxPrice = 0` and `minPrice = Number.MAX_VALUE`, the latter is initialized to Number.MAX_VALUE in order to ensure that its value is always less than the maximum possible number on each turn. Useful as an initial value when searching for the minimum value.
+
+The for loop will iterate through every index of the array `prices` asking the following question with an if statement: `if (prices[i] < minPrice)` set `prices[i]` to be the `minPrice`, otherwise set `maxPrice` to be maximum return value from `Math.max(maxPricem prices[i] - minPrice)`. All that is left is for the function to `return maxPrice`
 
 #### time complexity
 
@@ -48,7 +49,7 @@ Create an object `uniq` within the function to map all the array values to a key
 
 #### space complexity
 
-_***O(n)***_.
+_***O(1)***_.
 
 ## Code
 
@@ -61,7 +62,7 @@ function maxProfit(prices) {
         if (prices[i] < minPrice) {
             minPrice = prices[i];
         }else {
-            maxPrice = Math.max(maxPrice, prices[i]- minPrice)
+            maxPrice = Math.max(maxPrice, prices[i]- minPrice);
         }
     }
     return maxPrice;

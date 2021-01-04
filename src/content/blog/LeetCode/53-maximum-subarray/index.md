@@ -7,14 +7,15 @@ date: 2021-01-04
 
 ## Coding challenge
 
-You are climbing a staircase. It takes n steps to reach the top.
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
-Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
 ##### Constraints
 
 
-`1 <= n <= 45
+`1 <= nums.length <= 2 * 104
+-231 <= nums[i] <= 231 - 1
 `
 
 #### examples:
@@ -23,20 +24,28 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 ```javascript
 Example 1:
 
-Input: n = 2
-Output: 2
-Explanation: There are two ways to climb to the top.
-1. 1 step + 1 step
-2. 2 steps
-
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.
 Example 2:
 
-Input: n = 3
-Output: 3
-Explanation: There are three ways to climb to the top.
-1. 1 step + 1 step + 1 step
-2. 1 step + 2 steps
-3. 2 steps + 1 step
+Input: nums = [1]
+Output: 1
+
+Example 3:
+
+Input: nums = [0]
+Output: 0
+
+Example 4:
+
+Input: nums = [-1]
+Output: -1
+
+Example 5:
+
+Input: nums = [-2147483647]
+Output: -2147483647
 ```
 <br>
 
@@ -70,17 +79,14 @@ _***O(1)***_.
 ## Code
 
 ```javascript
-function climbStairs(nums) {
-    if (nums === 1) return 1;
-
-    let first = 1;
-    let second = 2;
-    for (let i = 3; i <= nums; i++) {
-        let third = first + second;
-        first = second;
-        second = third;
+function maxSubArray(nums) {
+    let current_sum = nums[0]
+    let max_sum = nums[0];
+    for(let i = 1; i < nums.length; i++){
+        current_sum = Math.max(nums[i], current_sum + nums[i])
+        max_sum = Math.max(max_sum, current_sum);
     }
-    return second;
+    return max_sum;
 };
 ```
 
@@ -89,6 +95,6 @@ function climbStairs(nums) {
 
 ## Road to 170
 
-**LC: 5**
+**LC: 7**
 
 This is the fifth Leetcode challenge of the 170 challenges from the [LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) by Sean Prashad
