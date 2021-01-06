@@ -80,9 +80,9 @@ _***O(1)***_.
 
 ```javascript
 function maxSubArray(nums) {
-    let current_sum = nums[0]
-    let max_sum = nums[0];
-    for(let i = 1; i < nums.length; i++){
+    let current_sum = 0;
+    let max_sum = -Infinity;
+    for(let i = 0; i < nums.length; i++){
         current_sum = Math.max(nums[i], current_sum + nums[i])
         max_sum = Math.max(max_sum, current_sum);
     }
